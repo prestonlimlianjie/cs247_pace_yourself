@@ -1,0 +1,32 @@
+/*
+CSS for the CS142 project #5 main page
+
+Since CSS uses a global name space for classes we should use class names starting with
+cs142-main- here.
+*/
+
+.tolowercase {
+    text-transform: lowercase;
+    font-size: 1em;
+}
+
+.body {
+	background-color: #DFFFED;
+}
+
+.searchBox::-webkit-input-placeholder {
+    text-transform: lowercase;
+    font-size: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #4E5953;
+}
+
+.md-button.md-icon-button {
+    margin: 0 0.6rem;
+    height: 15rem;
+    min-width: 0;
+    line-height: 4.8rem;
+    padding-left: 0;
+    padding-right: 0;
+    width: 10rem;
+}

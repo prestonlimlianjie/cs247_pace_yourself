@@ -1,0 +1,144 @@
+body {
+	background-color: #DFFFED;
+}
+
+.caption{
+	font-family: 'Josefin Sans', sans-serif;
+	color: #497F61;
+	font-size: 15px;
+	top: -210px;
+	position: relative;
+	text-align: center;
+	background-color: white;
+}
+
+.topBar {
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #497F61;
+	width: 100%;
+	color: white;
+	height: 60px;
+	line-height: 60px;
+	font-size: 18px;
+}
+
+.featuredVideo {
+	display: inline;
+	object-fit: cover;
+    overflow: hidden;
+    height: 150px;
+	width: 100%;
+	top: -180px;
+	position: relative;
+}
+
+.fullWidth {
+	width: 100%;
+}
+
+.secondBar {
+	font-family: 'Josefin Sans', sans-serif;
+	position: relative;
+	height: 60px;
+	line-height: 60px;
+	font-size: 30px;
+	top: -175px;
+	color: #707F77;
+}
+
+#darkerColor {
+	display: inline;
+	color: #4E5953;
+	font-weight: bold;
+	font-size: 40px;
+	top: -280px;
+}
+
+#italic {
+	display: inline;
+	color: #4E5953;
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: italic;
+}
+
+.featuredTitle{
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	position: relative;
+	font-size: 50px;
+	color: white;
+	top: -175px;
+}
+
+.pre {
+	position: relative;
+	top: -250px;
+	left: 8%;
+	height: 100px;
+	width: 50px;
+}
+
+.next{
+	position: relative;
+	top: -250px;
+	left: 82.5%;
+	height:100px;
+	width: 50px;
+}
+
+.crop {
+    width: 100%;
+	height: 600px;
+	object-fit: cover;
+    overflow: hidden;
+}
+
+.logo {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.searchBox {
+	height: 100%;
+}
+
+.small {
+	height: 15px;
+	width: 15px;
+}
+
+.infinite-carousel {
+	display: inline-block;
+	overflow: hidden; 
+
+}
+.infinite-carousel .list{
+	display: inline-block;
+	overflow: hidden; 
+    width:200%;
+	height:400px;
+    overflow:visible;
+}
+.infinite-carousel .viewport{
+  width:200%;
+  overflow:hidden;
+  margin-left: -51.1%;
+}
+.infinite-carousel .list .item{
+	object-fit: cover;
+    width:16.5%;
+    text-align: center;
+    vertical-align: middle;
+    margin-right:28px;
+    float: left;
+}
+
+.r{
+    background-color: red;
+}
+.g{
+    background-color: #cf5;
+}
+.b{
+    background-color: blue;
+}

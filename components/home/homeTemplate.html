@@ -1,0 +1,89 @@
+<!doctype html>
+
+  	<!-- LARGE CAROUSEL OF PICS -->
+	<div class='infinite-carousel'> 
+        <div class="viewport">
+            <div class='list'>
+                <div class='item g'>
+                    <img src="./photo1.jpg" class="crop">
+                </div>
+                <div class='item r'>
+                    <img src="./photo2.jpg" class="crop">
+                </div>
+                <div class='item g'>
+                    <img src="./photo3.jpg" class="crop">
+                </div>
+            </div>
+        </div>
+
+       	<img src="./back_arrow.png" class='pre'>
+    	<img src="./forward_arrow.png" class='next'>
+    	<div class = "featuredTitle"> happening now </div>
+    </div>
+
+    <!-- WORDS BELOW THE LARGE CAROUSEL -->
+    <div class="row">	
+    	<div class = "secondBar">
+	    	<div class="col-md-2"></div>
+			<div class="col-md-4">
+				<div id = "darkerColor"> featured talks </div>
+			</div>
+    </div>
+  	</div>
+
+  	<!-- FEATURED TALKS -->
+  	<div class="row">	
+  		<div class="col-md-2">
+  			<img src="./photo4.jpg" class="featuredVideo">
+        <div class="caption"> baking with a pacemaker </div>
+  		</div>
+  		<div class="col-md-2">
+  			<img src="./photo5.jpg" class="featuredVideo">
+         <div class="caption"> dancing through life </div>
+  		</div>
+  		<div class="col-md-2">
+  			<img src="./photo6.jpg" class="featuredVideo">
+        <div class="caption"> soccer and other sports </div>
+  		</div>
+  		<div class="col-md-2">
+  			<img src="./photo7.jpg" class="featuredVideo">
+        <div class="caption"> scuba diving </div>
+  		</div>
+  		<div class="col-md-2">
+  			<img src="./photo8.jpg" class="featuredVideo">
+        <div class="caption"> international travel </div>
+  		</div>
+  		<div class="col-md-2">
+  			<img src="./photo9.jpg" class="featuredVideo">
+        <div class="caption"> marathon training </div>
+  		</div>
+  	</div>
+
+<!--     <div class = "row">
+      <div class = "secondBar">
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+          <div id = "darkerColor2"> featured talks </div>
+        </div>
+      </div>
+    </div>
+ -->
+
+  	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  	<script src="js/jquery.js"></script>
+  	<!-- Include all compiled plugins (below), or include individual files as needed -->
+  	<script src="js/bootstrap.js"></script>
+  	<!-- stuff for infinite carousel -->
+	<script src='js/infiniteCarousel.js'></script>
+    <script>
+        $('.infinite-carousel').infiniteCarousel({
+            itemsPerMove : 1,
+            duration : 500
+        });
+    </script>
+    <script>
+        $('.infinite-carousel-2').infiniteCarousel({
+            itemsPerMove : 1,
+            duration : 500
+        });
+    </script>

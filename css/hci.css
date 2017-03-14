@@ -1,0 +1,224 @@
+/*
+ * notes for msb
+ */
+small.notes {
+  display: none;
+}
+
+a, a:hover {
+  color: #990615;
+}
+
+#calendar small {
+  color: #AAAAAA;
+}
+
+/*
+ * Navbar color customizations from http://smarchal.com/twbscolor/
+ * http://smarchal.com/twbscolor/?bd=7d0512&bh=943943&cd=ecf0f1&ch=ffbbbc
+ */
+.navbar-default {
+    /*background-image: linear-gradient(to bottom,#943943 0,#7d0512 100%);*/
+    background-image: none;
+    background-color: #7d0512;
+    /*border-color: #943943;*/
+}
+.navbar-default .navbar-brand {
+    color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffbbbc;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ecf0f1;
+    font-weight: 300;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ffbbbc;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #ecf0f1;
+    background-image: none;
+    background-color: transparent;
+}
+/*
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+
+}*/
+
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .open > a:focus {
+    /*color: #ffbbbc;*/
+    /*background-color: #943943;*/
+    background-image: none;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #ecf0f1;
+    border-bottom-color: #ecf0f1;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #ffbbbc;
+    border-bottom-color: #ffbbbc;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #ffbbbc;
+    border-bottom-color: #ffbbbc;
+}
+.navbar-default .navbar-toggle {
+    border-color: #943943;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #943943;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ecf0f1;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ecf0f1;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #ffbbbc;
+    }
+}
+
+body {
+  padding-top: 70px;
+  background-color: #f7f7f7;
+  position: relative;
+}
+
+.anchor {
+	padding-top: 40px; /* prevents the fixed navbar from obscuring the anchors */
+  margin-top: -40px;
+  display: inline-block; /* required for webkit browsers */
+}
+
+
+.jumbotron {
+  position: relative;
+  background: none;
+}
+
+.jumbotron h1 {
+  font-weight: bold;
+}
+
+.jumbotron:after {
+     content:"";
+     background: url("../images/verplank.jpg"); /* Image Creative Commons, thanks JoshDamon! http://www.flickr.com/photos/joshdamon/2870730178/ */
+     opacity: 0.15;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     position: absolute;
+     z-index: -1;        
+}
+
+.navbar-default {
+    text-transform:uppercase;
+    font-family: "Gill Sans", Calibri, AvenirNext, Avenir, HelveticaNeue, Helvetica, Arial, Verdana, sans-serif;
+    font-size: 12pt;
+}
+
+.navbar-default .navbar-brand {
+    font-size: 24pt;
+}
+
+.navbar-nav {
+    font-weight: 300;
+}
+
+/* Adapted from the Bootstrap docs for sidebar navigation + scrollspy */
+.sidenav .nav > li > a {
+  display: block;
+  padding: 5px 20px 5px 0px;
+}
+.sidenav .nav > li > a:hover,
+.sidenav .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #e5e3e9;
+  border-right: 1px solid #990615;
+}
+.sidenav .nav > .active > a,
+.sidenav .nav > .active:hover > a,
+.sidenav .nav > .active:focus > a {
+  font-weight: bold;
+  background-color: transparent;
+  border-right: 1px solid #990615;
+}
+
+/* Nav: second level */
+.sidenav .nav .nav {
+    margin-bottom: 8px;
+}
+
+.sidenav .nav .nav > li > a {
+  padding-top:    3px;
+  padding-bottom: 3px;
+  padding-left: 30px;
+  font-size: 90%;
+}
+
+.nav-list > .active > a,
+.nav-list > .active > a:hover {
+  background-color: #7D0612;
+}
+
+@media(max-width:1000px){
+  .sidenav.affix {
+    position: static;
+    width: auto;
+    top: 0;
+  }
+}
+
+.lab-slide {
+  margin-bottom: 2em;
+}
+
+.lab-slide h1,
+.lab-slide h2,
+.lab-slide h3,
+.lab-slide h4,
+.lab-slide h5,
+.lab-slide h6 {
+  margin-top: 0;
+}
+
+.lab-slide .pre-scrollable {
+  max-height: 300px;
+}
+
+.lab-slide video {
+  border: 1px solid gray;
+}
+
+#evaluation th {
+  min-width: 150px;
+}
+
+.project h1,
+.project h2,
+.project h3,
+.project h4,
+.project h5,
+.project h6 {
+  font-family: 'Rock Salt';
+}
