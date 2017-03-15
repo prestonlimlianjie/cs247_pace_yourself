@@ -21,6 +21,22 @@ cs142App.config(['$routeProvider',
             //     templateUrl: 'components/favorites/favoritesTemplate.html',
             //     controller: 'FavoritesController'
             // }).
+            when('/savedvideos', {
+                templateUrl: 'components/saved-videos/saved-videosTemplate.html',
+                controller: 'SavedVideosController'
+            }).
+            when('/categories', {
+                templateUrl: 'components/categories/categoriesTemplate.html',
+                controller: 'CategoriesController'
+            }).
+            when('/hostatalk', {
+                templateUrl: 'components/hostatalk/hostatalkTemplate.html',
+                controller: 'HostATalkController'
+            }).
+            when('/home', {
+                templateUrl:'components/home/homeTemplate.html',
+                controller: 'HomeController'
+            }).
             otherwise({
                 templateUrl:'components/home/homeTemplate.html',
                 controller: 'HomeController'
