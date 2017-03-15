@@ -13,14 +13,14 @@ cs142App.config(['$routeProvider',
             //     templateUrl: 'components/user-detail/user-detailTemplate.html',
             //     controller: 'UserDetailController'
             // }).
-            // when('/photos/:userId', {
-            //     templateUrl: 'components/user-photos/user-photosTemplate.html',
-            //     controller: 'UserPhotosController'
-            // }).
-            // when('/favorites', {
-            //     templateUrl: 'components/favorites/favoritesTemplate.html',
-            //     controller: 'FavoritesController'
-            // }).
+            when('/exercise', {
+                templateUrl: 'components/exercise/exerciseTemplate.html',
+                controller: 'ExerciseController'
+            }).
+            when('/playvideo', {
+                templateUrl: 'components/play-video/play-videoTemplate.html',
+                controller: 'PlayVideoController'
+            }).
             when('/savedvideos', {
                 templateUrl: 'components/saved-videos/saved-videosTemplate.html',
                 controller: 'SavedVideosController'
