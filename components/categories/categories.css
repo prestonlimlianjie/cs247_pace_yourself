@@ -1,7 +1,6 @@
 .overlay {
   position: absolute;
   top: 0;
-  bottom: 0;
   left: 0;
   right: 0;
   height: 100%;
@@ -13,6 +12,11 @@
 
 .container:hover .overlay {
   opacity: 1;
+}
+
+.gap {
+  height: 30px;
+  line-height: 30px;
 }
 
 .text {
