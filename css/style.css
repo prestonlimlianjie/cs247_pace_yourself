@@ -1,5 +1,5 @@
 body {
-	background-color: #DFFFED;
+	background-color: #75CB9B;
 }
 
 .caption{
@@ -7,6 +7,16 @@ body {
 	color: #497F61;
 	font-size: 15px;
 	top: -210px;
+	position: relative;
+	text-align: center;
+	background-color: white;
+}
+
+.caption_2{
+	font-family: 'Josefin Sans', sans-serif;
+	color: #497F61;
+	font-size: 30px;
+	top: -255px;
 	position: relative;
 	text-align: center;
 	background-color: white;
@@ -37,22 +47,22 @@ body {
 }
 
 .secondBar {
-	font-family: 'Josefin Sans', sans-serif;
-	position: relative;
-	height: 60px;
-	line-height: 60px;
-	font-size: 30px;
-	top: -175px;
-	color: #707F77;
-}
-
-#darkerColor {
 	display: inline;
 	color: #4E5953;
 	font-weight: bold;
 	font-size: 40px;
-	top: -280px;
+	top: -175px;
+	font-family: 'Josefin Sans', sans-serif;
+	position: relative;
+	
 }
+/*
+.secondBarWrapper {
+	background-color: #497F61;
+	top: -175px;
+
+}
+*/
 
 #italic {
 	display: inline;
@@ -67,7 +77,7 @@ body {
 	position: relative;
 	font-size: 50px;
 	color: white;
-	top: -175px;
+	top: -225px;
 }
 
 .pre {
