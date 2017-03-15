@@ -10,7 +10,9 @@ main- here.
 }
 
 .body {
-	background-color: #DFFFED;
+	/*background-color: #DFFFED;*/
+    /*background-color: #E7F0EF;*/
+  background-color: #B2CBBD;
 }
 
 .searchBox::-webkit-input-placeholder {

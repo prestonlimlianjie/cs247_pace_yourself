@@ -38,7 +38,7 @@ html {
 	/*text-align: center;*/
 	background-color: white;
 	top: -95px;
-	opacity: 0.8;
+	/*opacity: 0.8;*/
 }
 
 .largerContainer {
@@ -50,7 +50,10 @@ html {
 }
 
 .savedWrapper{
-	background-color: white;
+	/*background-color: white;*/
+/*	background-color: #E7F0EF;
+	background-color: #222E23;*/
+	background-color: #2C4C3A;
 	width: 100%;
 	line-height: 50px;
 	height: 50px;
@@ -69,7 +72,8 @@ html {
 	font-family: 'Josefin Sans', sans-serif;
 	position: relative;
 	font-size: 40px;
-	color: #4E5953;
+	/*color: #4E5953;*/
+	color: white;
 	font-weight: bold;
 }
 
@@ -121,7 +125,9 @@ html {
 
 .secondBar {
 	display: inline;
-	color: #4E5953;
+	color: #2C4C3A;
+	/*color: #4E5953;*/
+	/*color: white;*/
 	font-weight: bold;
 	font-size: 40px;
 	top: -175px;
@@ -129,13 +135,12 @@ html {
 	position: relative;
 	
 }
-/*
-.secondBarWrapper {
+
+/*.secondBarWrapper {
 	background-color: #497F61;
 	top: -175px;
+}*/
 
-}
-*/
 
 #italic {
 	display: inline;
