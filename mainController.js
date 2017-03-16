@@ -9,14 +9,6 @@ cs142App.config(['$routeProvider',
             //     templateUrl: 'components/user-list/user-listTemplate.html',
             //     controller: 'UserListController'
             // }).
-            when('/playvideonext', {
-                templateUrl: 'components/play-video-next/play-video-nextTemplate.html',
-                controller: 'PlayVideoNextController'
-            }).
-            when('/exercise', {
-                templateUrl: 'components/exercise/exerciseTemplate.html',
-                controller: 'ExerciseController'
-            }).
             when('/health', {
                 templateUrl: 'components/health/healthTemplate.html',
                 controller: 'HealthController'
@@ -36,6 +28,14 @@ cs142App.config(['$routeProvider',
             when('/lifestyle', {
                 templateUrl: 'components/lifestyle/lifestyleTemplate.html',
                 controller: 'LifestyleController'
+            }).
+            when('/playvideonext', {
+                templateUrl: 'components/play-video-next/play-video-nextTemplate.html',
+                controller: 'PlayVideoNextController'
+            }).
+            when('/exercise', {
+                templateUrl: 'components/exercise/exerciseTemplate.html',
+                controller: 'ExerciseController'
             }).
             when('/playvideo', {
                 templateUrl: 'components/play-video/play-videoTemplate.html',
@@ -142,15 +142,15 @@ cs142App.controller('MainController', ['$scope', '$resource', '$rootScope', '$lo
       //     console.log("Logout successful");
       //     $scope.main.loggedIn = false;
       //     $scope.errormsg = '';
-
+          
       //     // Broadcast to route to login page
       //     $rootScope.$broadcast('Logout');
-
-      //   }, function errorHandling(err) {
+            
+      //   }, function errorHandling(err) { 
       //     console.log(err);
       //     console.log('Logout failed');
       //       // Any error or non-OK status
-      //   });
+      //   });  
       // };
 
       // $scope.favoritesButtonClick = function(buttonName){

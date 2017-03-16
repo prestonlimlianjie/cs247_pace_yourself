@@ -236,8 +236,60 @@ html {
     background-color: red;
 }
 .g{
-    background-color: #cf5;
+    background-color: #497F61;
 }
 .b{
     background-color: blue;
+}
+
+div.show-image {
+    position: relative;
+    float:left;
+    margin:0px;
+}
+
+div.show-image:hover img{
+    opacity:0.5;
+}
+div.show-image:hover input {
+    display: block;
+}
+div.show-image input {
+    position:relative;
+    display:none;
+}
+div.show-image input.goto {
+	top: 22%;
+	left: 32%;
+}
+div.show-image input.add {
+	top: 23%;
+	left: 53%;
+}
+
+div.show-image input.gotosmall {
+	top: -73%;
+	left: 32%;
+}
+div.show-image input.addsmall {
+	top: -71%;
+	left: 53%;
+}
+
+div.show-image input.gotocat {
+	top: 32%;
+	left: 32%;
+}
+div.show-image input.addcat {
+	top: 34%;
+	left: 53%;
+}
+
+div.show-image input.gotosmallcat {
+	top: 32%;
+	left: 32%;
+}
+div.show-image input.addsmallcat {
+	top: 34%;
+	left: 53%;
 }
