@@ -2,7 +2,7 @@
 
 <body ng-app="myApp">
 
-<div ng-controller="PlayVideoController">
+<div ng-controller="PlayVideoNextController">
 <!-- <form ng-if="!main.loggedIn" name="form" ng-submit="vm.login()" role="form">
 <h2>Login</h2>
 <label>Username <input type="text" ng-model="main.username"/></label><br/>
@@ -41,7 +41,7 @@
  		<div class="col-md-7">
  		<div class="embed-responsive embed-responsive-16by9">
  		<script src="http://www.youtube.com/player_api"></script>
-  			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NeGLiwwy63I?autoplay=1&start=285&enablejsapi=1"></iframe>
+  			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NeGLiwwy63I?autoplay=1&start=45&enablejsapi=1"></iframe>
 
 		</div>
 		</div>
@@ -51,12 +51,12 @@
 				<md-subheader class="questionHeader">
 				Question List
 				</md-subheader>
-				<md-subheader class="questionElem" ng-repeat="questionObj in main.questionList">
-					<a href="#playvideonext"><img src= "./play.png" class="playbutton"></a>&nbsp;{{questionObj.question}}
+				<md-subheader class="questionElem" ng-repeat="questionObj in questionList">
+					<a href="#playvideonext"><img src= "./play.png" class="playbutton"></a>&nbsp;{{questionObj.question}} 
 				</md-subheader>
 
-				<md-subheader class="questionElem" ng-repeat="newQuestionObj in main.uaQuestionList">
-					<img src= "./play.png" class="playbuttonUA">&nbsp;{{newQuestionObj.question}}
+				<md-subheader class="questionElem" ng-repeat="newQuestionObj in uaQuestionList">
+					<img src= "./play.png" class="playbuttonUA">&nbsp;{{newQuestionObj.question}} 
 				</md-subheader>
 
 				<md-subheader class="questionElem">

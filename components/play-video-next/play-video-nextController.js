@@ -1,6 +1,6 @@
 'use strict';
 
-cs142App.controller('PlayVideoController', ['$scope', '$routeParams', '$resource', '$rootScope', '$route', '$location',
+cs142App.controller('PlayVideoNextController', ['$scope', '$routeParams', '$resource', '$rootScope', '$route', '$location',
   function ($scope, $routeParams, $resource, $rootScope, $route, $location) {
     /*
      * Since the route is specified as '/users/:userId' in $routeProvider config the
@@ -21,11 +21,11 @@ cs142App.controller('PlayVideoController', ['$scope', '$routeParams', '$resource
    $scope.main.location = '';
    $scope.stuff = '';
 
-   $scope.main.questionList = [
+   $scope.questionList = [
      {username: "jackiek", question: "How did you deal with not being able to shower?"},
      {username: "jackiek", question: "Did you receive local or general anesthesia?"}];
 
-    $scope.main.uaQuestionList = [
+    $scope.uaQuestionList = [
       {username: "jackiek", question: "What can and can't you do the day after surgery?"},
       {username: "jackiek", question: "What would you recommend we do to prepare for post-surgery?"}];
 

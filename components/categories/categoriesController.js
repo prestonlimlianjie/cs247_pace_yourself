@@ -4,5 +4,4 @@ cs142App.controller('CategoriesController', ['$scope', '$routeParams', '$resourc
   function ($scope, $routeParams, $resource, $rootScope, $route, $location) {
 
 
-    };
 }]);

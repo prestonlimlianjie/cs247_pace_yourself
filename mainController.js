@@ -9,10 +9,10 @@ cs142App.config(['$routeProvider',
             //     templateUrl: 'components/user-list/user-listTemplate.html',
             //     controller: 'UserListController'
             // }).
-            // when('/users/:userId', {
-            //     templateUrl: 'components/user-detail/user-detailTemplate.html',
-            //     controller: 'UserDetailController'
-            // }).
+            when('/playvideonext', {
+                templateUrl: 'components/play-video-next/play-video-nextTemplate.html',
+                controller: 'PlayVideoNextController'
+            }).
             when('/exercise', {
                 templateUrl: 'components/exercise/exerciseTemplate.html',
                 controller: 'ExerciseController'
@@ -47,8 +47,8 @@ cs142App.config(['$routeProvider',
 cs142App.controller('MainController', ['$scope', '$resource', '$rootScope', '$location', '$http', '$route',
     function ($scope, $resource, $rootScope, $location, $http, $route) {
 
-        // $scope.main = {};
-        // $scope.main.title = '';
+        $scope.main = {};
+        $scope.main.title = '';
         // $scope.main.version = '0';
         // $scope.main.loggedIn = true;
         // $scope.main.username = '';
