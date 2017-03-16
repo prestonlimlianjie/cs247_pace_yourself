@@ -7,6 +7,15 @@ html {
 	height: 100%;
 }
 
+.subtitle {
+	background-color: #497F61;
+}
+
+.gap {
+	height: 30px;
+	line-height: 30px;
+}
+
 .caption_3 {
 	font-family: 'Josefin Sans', sans-serif;
 	color: #497F61;
@@ -80,8 +89,8 @@ html {
 .caption{
 	font-family: 'Josefin Sans', sans-serif;
 	color: #497F61;
-	font-size: 15px;
-	top: -210px;
+	font-size: 20px;
+	top: -220px;
 	position: relative;
 	/*text-align: center;*/
 	background-color: white;
