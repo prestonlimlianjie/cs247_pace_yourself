@@ -17,6 +17,26 @@ cs142App.config(['$routeProvider',
                 templateUrl: 'components/exercise/exerciseTemplate.html',
                 controller: 'ExerciseController'
             }).
+            when('/health', {
+                templateUrl: 'components/health/healthTemplate.html',
+                controller: 'HealthController'
+            }).
+            when('/school', {
+                templateUrl: 'components/school/schoolTemplate.html',
+                controller: 'SchoolController'
+            }).
+            when('/goingOut', {
+                templateUrl: 'components/goingOut/goingOutTemplate.html',
+                controller: 'GoingOutController'
+            }).
+            when('/travel', {
+                templateUrl: 'components/travel/travelTemplate.html',
+                controller: 'TravelController'
+            }).
+            when('/lifestyle', {
+                templateUrl: 'components/lifestyle/lifestyleTemplate.html',
+                controller: 'LifestyleController'
+            }).
             when('/playvideo', {
                 templateUrl: 'components/play-video/play-videoTemplate.html',
                 controller: 'PlayVideoController'
@@ -122,15 +142,15 @@ cs142App.controller('MainController', ['$scope', '$resource', '$rootScope', '$lo
       //     console.log("Logout successful");
       //     $scope.main.loggedIn = false;
       //     $scope.errormsg = '';
-          
+
       //     // Broadcast to route to login page
       //     $rootScope.$broadcast('Logout');
-            
-      //   }, function errorHandling(err) { 
+
+      //   }, function errorHandling(err) {
       //     console.log(err);
       //     console.log('Logout failed');
       //       // Any error or non-OK status
-      //   });  
+      //   });
       // };
 
       // $scope.favoritesButtonClick = function(buttonName){
