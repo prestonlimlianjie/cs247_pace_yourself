@@ -294,17 +294,51 @@ div.show-image input.addsmallcat {
 	left: 53%;
 }
 
-#addQuestions {
+#subscribe {
     position: absolute;
     font-size: 40px;
     top: 140px;
     left: calc(50% - 200px);
-    height: 140px;
+    height: 103px;
     width: 400px;
     font-family: 'Josefin Sans', sans-serif;
     background-color: #497F61;
     color: white;
     font-size: 18px;
+}
+
+#addQuestions {
+    position: absolute;
+    font-size: 40px;
+    top: 190px;
+    margin-top: 5px;
+    left: calc(50% - 200px);
+    height: 130px;
+    width: 400px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #497F61;
+    color: white;
+    font-size: 18px;
+}
+
+a, a:hover   {
+	color:white; 
+	background-color:transparent; 
+	text-decoration:none;
+}
+
+.confirmation {
+	font-size: 25px;
+	line-height: 30px;
+	height: 30px;
+}
+
+.button2 {
+	background-color: #2C4C3A;
+    width: 237px;
+    margin: 2%;
+    height: 35px;
+    line-height: 35px;
 }
 
 .initiallyHidden { 
@@ -323,13 +357,13 @@ div.show-image input.addsmallcat {
      width: 96%;
 }
 
-.exit {
+.closeWindows {
     float: right;
 }
 
 .submit {
     background-color: #2C4C3A;
-    width: 156px;
+    width: 114px;
     margin: 2%;
     height: 35px;
     line-height: 35px;
@@ -340,4 +374,8 @@ div.show-image input.addsmallcat {
     height: 50px;
     line-height: 50px;
     background-color: #2C4C3A;
+}
+
+.submit {
+	display: inline-block;
 }
